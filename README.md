@@ -25,9 +25,15 @@ and then run the following in the directory to run the app on port 80 (you can c
 
 
 <h2>To Create some dummy text data for your app follow the step below :</h2>
-  (just on your local host for testing the app, if you're going to run it on docker-compose then you need to update the requirments.txt file and the Dockerfile.yml)
+
+just on your local host for testing the app, if you're going to run it on docker-compose then you need to update the requirments.txt file and the Dockerfile.yml
+
 <code>pip install faker</code>
+
 <code>python manage.py shell</code>
+
 <code>import seeder</code>
+
 <code>seeder.seed_all(30)</code>
+
 <p>Here 30 is a number of entry. You can use it as your own</p>
