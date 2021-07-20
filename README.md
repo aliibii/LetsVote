@@ -17,6 +17,7 @@ and then run the following in the directory to run the app on port 80 (you can c
 <h2>To migrate the database type</h2>
 
 <code>sudo docker-compose run web python manage.py makemigrations</code>
+
 <code>sudo docker-compose run web python manage.py migrate</code>
 
 <h2>To use admin panel you need to create superuser using this command </h2>
