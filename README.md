@@ -22,3 +22,11 @@ and then run the following in the directory to run the app on port 80 (you can c
 
 <h2>To use admin panel you need to create superuser using this command </h2>
 <code>sudo docker-compose run web python manage.py createsuperuser</code>
+
+
+<h2>To Create some dummy text data for your app follow the step below:</h2>
+<code>pip install faker</code>
+<code>python manage.py shell</code>
+<code>import seeder</code>
+<code>seeder.seed_all(30)</code>
+<p>Here 30 is a number of entry. You can use it as your own</p>
