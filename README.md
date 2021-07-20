@@ -24,8 +24,8 @@ and then run the following in the directory to run the app on port 80 (you can c
 <code>sudo docker-compose run web python manage.py createsuperuser</code>
 
 
-<h2>To Create some dummy text data for your app follow the step below 
-  (just on your local host for testing the app, if you're going to run it on docker-compose then you need to update the requirments.txt file and the Dockerfile.yml):</h2>
+<h2>To Create some dummy text data for your app follow the step below :</h2>
+  (just on your local host for testing the app, if you're going to run it on docker-compose then you need to update the requirments.txt file and the Dockerfile.yml)
 <code>pip install faker</code>
 <code>python manage.py shell</code>
 <code>import seeder</code>
