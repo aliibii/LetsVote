@@ -11,6 +11,7 @@ You have to register in this app to show the polls and to vote. If you already v
 <code>git clone https://github.com/aliibii/LetsVote.git</code><br><br>
 
 and then run the following in the directory to run the app on port 80 (you can change it in docker-compose.yml):
+
 <code>sudo docker-compose up --build -d</code>
 
 <h2>To migrate the database type</h2>
