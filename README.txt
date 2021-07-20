@@ -2,7 +2,7 @@
 
 You have to register in this app to show the polls and to vote. If you already voted you can not vote again. Only the owner of a poll can add poll , edit poll, update poll, delete poll , add choice, update choice, delete choice and end a poll. If a poll is ended it can not be voted. Ended poll only shows user the final result of the poll. There is a search option for polls. Also user can filter polls by name, publish date, and by number of voted.
 
-<h2>Prerequisites</h2>
+<h1>Prerequisites</h1>
 <code>python== 3.5 or up , django==2.0 or up and Docker-compose== 1.29.2 </code>
 
 
