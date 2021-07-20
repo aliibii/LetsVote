@@ -7,5 +7,5 @@ services:
         - .:/code
         - .db_data/db.sqlite3:/db.sqlite3
        ports:
-           - 8181:8000
+           - 80:8000
        
